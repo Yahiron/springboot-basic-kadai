@@ -15,15 +15,15 @@ public class ToDo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Integer Id;//id
+    private Integer id;//id
 
     @Column(name = "title")
-    private String Title;//タイトル
+    private String title;//タイトル
 
     @Column(name = "priority")
-    private String Priority;//優先度
+    private String priority;//優先度
 
     @Column(name = "status")
-    private String Status;//ステータス
+    private String status;//ステータス
 	
 }

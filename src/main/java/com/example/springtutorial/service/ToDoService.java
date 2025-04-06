@@ -17,7 +17,7 @@ public class ToDoService {
 
     }    
  
-    public List<ToDo> getAllUsers() {
+    public List<ToDo> getAllUsers() {//ここが違う気がする
         return todoRepository.findAll();// ユーザー一括取得
     }
     
